@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/portada_rupest"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anar.rupestrarium.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <include
+        android:id="@+id/toolBarMenu"
+        layout="@layout/tool_bar_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/uk"
+        android:id="@+id/en"
+        android:clickable="true"
+        tools:layout_editor_absoluteY="425dp"
+        tools:layout_editor_absoluteX="309dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/es"
+        android:background="@drawable/spain"
+        android:clickable="true"
+        tools:layout_editor_absoluteY="425dp"
+        tools:layout_editor_absoluteX="259dp"
+        android:layout_alignTop="@+id/en"
+        android:layout_toLeftOf="@+id/en"
+        android:layout_toStartOf="@+id/en" />
+
+</RelativeLayout>

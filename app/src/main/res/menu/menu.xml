@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_presentacion"
+            android:icon="@drawable/presentacion_ico"
+            android:title="@string/start" />
+
+        <item
+            android:id="@+id/nav_petroglifo"
+            android:icon="@drawable/petroglifo_ico"
+            android:title="@string/petro" />
+        <item
+            android:id="@+id/nav_petroglifo2"
+            android:icon="@drawable/petroglifo_ico"
+            android:title="@string/petro2" />
+        <item
+            android:id="@+id/nav_pintura"
+            android:icon="@drawable/pintura_ico"
+            android:title="@string/pint" />
+
+        <item
+            android:id="@+id/nav_pintura2"
+            android:icon="@drawable/pintura_ico"
+            android:title="@string/pint2" />
+
+        <item
+            android:id="@+id/nav_recapitula"
+            android:icon="@drawable/recapitula_ico"
+            android:title="@string/recap" />
+        <item
+            android:id="@+id/nav_creditos"
+            android:icon="@drawable/anar"
+            android:title="@string/cred" />
+
+    </group>
+</menu>

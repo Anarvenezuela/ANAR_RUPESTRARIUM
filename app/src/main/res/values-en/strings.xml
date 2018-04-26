@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Rockartium</string>
+    <string name="instr">Instructions</string>
+    <string name="intro">Introduction</string>
+    <string name="present">Presentation</string>
+    <string name="start">Start</string>
+    <string name="petro">Petroglyphs 1</string>
+    <string name="petro2">Petroglyphs 2</string>
+    <string name="pint">Rock Paintings 1</string>
+    <string name="pint2">Rock Painings 2</string>
+    <string name="recap">Recapitulate</string>
+    <string name="cred">Credits</string>
+    <string name="correo">anarvenezuela@gmail.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab">Tab</string>
+
+    <string name="antropomorfa">ANTHROPOMORPHIC</string>
+    <string name="desc_antropomorfa">Figures that represent the human being, whole body, head, hands and feet prints, image abstraction</string>
+
+    <string name="zoomorfa">ZOOMORPHIC</string>
+    <string name="desc_zoomorfa">Animal figures with their own features\n recreating nature with a specific purpose.</string>
+
+    <string name="geometrica">GEOMETRIC</string>
+    <string name="desc_geometrica">Representation with graphic elements like\n dots, lines, circles, or images more\n abstract, formed with the same elements.</string>
+
+    <string name="antropozoomorfa">ANTHROPOZOOMORPHIC</string>
+    <string name="desc_antropozoomorfa"><b>Anthropomorphic figures</b>, combined with\n<b>Zoomorphic</b> parts generate\n<b>Anthropozoomorphic</b> representations</string>
+
+    <string name="antropogeometrica">ANTHROPOGEOMETRIC</string>
+    <string name="desc_antropogeometrica"><b>Anthropomorphic figures</b> combined with\n<b>Geometric</b> parts or components generate\n<b>Anthropogeometric</b> representations</string>
+
+    <string name="zooantropomorfa">ZOOANTHROPOMORPHIC</string>
+    <string name="desc_zooantropomorfa"><b>Zoomorphic figures</b> combined with\n<b>Anthropomorphic</b> components generate\n<b>Zooanthropomorphic</b> representations</string>
+
+    <string name="zoogeometrica">ZOOGEOMETRIC</string>
+    <string name="desc_zoogeometrica"><b>Zoomorphic figures</b> combined with\n<b>Geometric</b> components generate\n<b>Zoogeometric</b> representations</string>
+
+    <string name="geoantropomorfa">GEOANTHROPOMORPHIC</string>
+    <string name="desc_geoantropomorfa"><b>Geometric figures</b> combined with\n<b>Anthropomorphic</b> components generate\n<b>Geoanthropomorphic</b> representations</string>
+
+    <string name="geozoomorfa">GEOZOOMORPHIC</string>
+    <string name="desc_geozoomorfa"><b>Geometric figures</b> combined with\n<b>Zoomorphic</b> components generate\n<b>Geozoomorphic</b> representations</string>
+
+    <string name="antropozoogeometrica">ANTHROPOZOOGEOMETRIC</string>
+    <string name="desc_antropozoogeometrica"><b>Anthropomorphic figures</b> combined with\n<b>Zoomorphic</b>  and <b>Geometric</b> components generate\n<b>Anthropozoogeometric</b>\n representations</string>
+
+    <string name="zooantropogeometrica">ZOOANTHROPOGEOMETRIC</string>
+    <string name="desc_zooantropogeometrica"><b>Zoomorphic figures</b> combined with\n<b>Anthropomorphic</b> and <b>Geometric</b> components generate\n<b>Zooanthropogeometric</b>\n representations</string>
+
+    <string name="geozooantropomorfa">GEOZOOANTHROPOMORPHIC</string>
+    <string name="desc_geozooantropomorfa"><b>Geometric figures</b> combined with\n<b>Zoomorphic</b>  and <b>Anthropomorphic</b> components generate\n<b>Geozooanthropomorphic</b>\n representations</string>
+
+    <string name="geoantropozoomorfa">GEOANTHROPOZOOMORPHIC</string>
+    <string name="desc_geoantropozoomorfa"><b>Geometric figures</b> combined with\n<b>Anthropomorphic</b> and <b>Zoomorphic</b> components generate\n<b>Geozooanthropomorphic</b>\n representations</string>
+
+    <string name="antropogeozoomorfa">ANTHROPOGEOZOOMORPHIC</string>
+    <string name="desc_antropogeozoomorfa"><b>Anthropomorphic figures</b> combined with\n<b>Geometric</b> and <b>Zoomorphic</b>  components generate\n<b>Anthropogeozoomorphic</b>\n representations</string>
+
+    <string name="zoogeoantropomorfa">ZOOGEOANTHROPOMORPHIC</string>
+    <string name="desc_zoogeoantropomorfa"><b>Zoomorphic figures</b> combined with\n<b>Geometric</b> and <b>Anthropomorphic</b> components generate\n<b>Zoogeoanthropomorphic</b>\n representations</string>
+
+    <string name= "p1">The Rock Art expressions are important,\nbecause:_______________________</string>
+    <string name= "p1a">They are artistic works</string>
+    <string name= "p1b">It is possible to transfer them from one site to another</string>
+    <string name= "p1c">Are the oldest attempt of human communication</string>
+    <string name= "p1d">Are located only in Africa</string>
+    <string name= "s1">Are the oldest attempt of human communication</string>
+
+    <string name= "p2">The ________________allows us to reach the diverse  graphic expressions, with the different contents of our first\nsocieties.</string>
+    <string name= "p2a">Dolmen</string>
+    <string name= "p2b">Water</string>
+    <string name= "p2c">Rock Art</string>
+    <string name= "p2d">Dance</string>
+    <string name= "s2">Rock Art</string>
+
+    <string name= "p3">In which of these Expressions do we find graphics or drawings, painted or engraved?</string>
+    <string name= "p3a">Mythical Natural Hills</string>
+    <string name= "p3b">Rock Art Paintings, Pictograms or Micro Petroglyphs</string>
+    <string name= "p3c">Connected Points</string>
+    <string name= "p3d">Just Micro Petroglyphs</string>
+    <string name= "s3">Rock Art Paintings, Pictograms or Micro Petroglyphs</string>
+
+    <string name= "p4">______________are human representations of the Human Being\n – whole body, head, hands and feet prints…-</string>
+    <string name= "p4a">Geometric figures</string>
+    <string name= "p4b">Zoomorphic figures</string>
+    <string name= "p4c">Anthropomorphic figures</string>
+    <string name= "p4d">Geozoomorphic  figures</string>
+    <string name= "s4">Anthropomorphic figures</string>
+
+    <string name= "p5">Representation of more abstract images are called____________</string>
+    <string name= "p5a">Zoomorphic</string>
+    <string name= "p5b">Anthropomorphic</string>
+    <string name= "p5c">Geometric or free figures</string>
+    <string name= "p5d">Geomorphic</string>
+    <string name= "s5">Geometric or free figures</string>
+
+    <string name= "p6">Zoomorphic shapes are representations of:</string>
+    <string name= "p6a">Plants</string>
+    <string name= "p6b">Animals</string>
+    <string name= "p6c">Human beings</string>
+    <string name= "p6d">Baskets</string>
+    <string name= "s6">Animals</string>
+
+    <string name= "p7">Combination of anthropomorphic and Zoomorphic shapes generates\n____________ representations</string>
+    <string name= "p7a">Geoanthropomorphic</string>
+    <string name= "p7b">Anthropozoomorphic</string>
+    <string name= "p7c">Zoogeometric</string>
+    <string name= "p7d">Zooanthropomorphic</string>
+    <string name= "s7">Anthropozoomorphic</string>
+
+    <string name="resultados">\nScore\n</string>
+    <string name="puntos">points</string>
+    <string name="r0">You don\'t have any points in this round\n\nGood luck next time!</string>
+    <string name="r1_3">Correct the answers </string>
+    <string name="r4_6a">Very Good!\n\nYou won </string>
+    <string name="r4_6b">You must corret the answers of the following questions: </string>
+    <string name="r7">¡CONGRATULATIONS!\n\nYou won the </string>
+    <string name="intento">\nTry Again\n</string>
+
+    <string name="puntaje">Score:  </string>
+    <string name="erradas">Wrong Answers:  </string>
+    <string name="enviar">\nSend your results by email\n</string>
+    <string name="asunto">Results Recapitulate Rockartium</string>
+    <string name="mensaje">This email is send by Rockartium Moible Android app</string>
+</resources>

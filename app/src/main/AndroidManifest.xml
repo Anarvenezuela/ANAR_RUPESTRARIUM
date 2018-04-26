@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anar.rupestrarium">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pintura2" android:screenOrientation="portrait"/>
+        <activity android:name=".Petroglifo2" android:screenOrientation="portrait"/>
+        <activity android:name=".Petroglifo" android:screenOrientation="portrait"/>
+        <activity android:name=".Tab" android:screenOrientation="portrait"/>
+        <activity android:name=".Creditos" android:screenOrientation="portrait"/>
+        <activity android:name=".Recapitula" android:screenOrientation="portrait"/>
+        <activity android:name=".Pintura" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
