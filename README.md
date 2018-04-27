@@ -10,4 +10,4 @@ Rockartium
 Mobile app with an educational game mode for the dissemination of knowledge about the Venezuelan Rock Manifestations. 
 Written in Java using Android Studio.
 
-Desarrollado por Daniela Ortíz y Sahid Reyes.
+Desarrollado por Daniela Ortiz y Sahid Reyes.
