@@ -21,7 +21,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="77dp"
         android:background="@drawable/boton_rend_sincolor"
-        android:gravity="center|top"
+        android:gravity="center"
         android:maxLines="4"
         android:minLines="2"
         android:textColor="#000000"

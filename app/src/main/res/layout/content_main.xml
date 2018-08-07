@@ -2,13 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/portada_rupest"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.anar.rupestrarium.MainActivity"
-    tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    >
 
     <include
         android:id="@+id/toolBarMenu"
@@ -17,6 +15,16 @@
         android:layout_height="wrap_content"/>
 
     <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBarMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/title_background" />
+
+    <!--ImageView
         android:layout_width="50dp"
         android:layout_height="40dp"
         android:background="@drawable/uk"
@@ -39,6 +47,6 @@
         tools:layout_editor_absoluteX="259dp"
         android:layout_alignTop="@+id/en"
         android:layout_toLeftOf="@+id/en"
-        android:layout_toStartOf="@+id/en" />
+        android:layout_toStartOf="@+id/en" /-->
 
 </RelativeLayout>

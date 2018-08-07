@@ -24,10 +24,11 @@
         android:layout_height="55dp" />
 
     <RadioGroup
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:background="@drawable/cuadro"
         android:id="@+id/rg"
-        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_height="250dp"
         android:layout_marginLeft="17dp"
         android:layout_marginRight="17dp">
 
@@ -84,12 +85,12 @@
             android:layout_marginBottom="25dp"
             />
 
-        <ImageButton
+        <ImageView
             android:layout_width="132dp"
             android:layout_height="80dp"
             android:scaleY="0.6"
             android:scaleX="0.6"
-            app:srcCompat="@drawable/derecha"
+            android:background="@drawable/derecha"
             android:id="@+id/siguiente"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="25dp" />

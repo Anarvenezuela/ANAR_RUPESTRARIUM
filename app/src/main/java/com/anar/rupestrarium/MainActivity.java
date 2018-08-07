@@ -1,7 +1,9 @@
 package com.anar.rupestrarium;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -12,14 +14,19 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.DisplayMetrics;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.Locale;
+
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -28,6 +35,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
+                .setDefaultFontPath("fonts/BAUHAUSM.TTF")
+                .setFontAttrId(R.attr.fontPath)
+                .build()
+        );
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolBarMain);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawerLayout);
@@ -37,30 +49,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.navView);
         navigationView.setNavigationItemSelectedListener(this);
-
-        ImageView icon = (ImageView) findViewById(R.id.app_name_bar);
-        //icon.setImageResource(R.drawable.petroglifo_ico);
-
-        String language = Locale.getDefault().getLanguage();
-        Drawable titulo_rupest = getResources().getDrawable(R.drawable.rupestrarium1);
-        Drawable titulo_rock = getResources().getDrawable(R.drawable.rockartium);
-        Drawable fondo_rupes = getResources().getDrawable(R.drawable.portada_rupest);
-        Drawable fondo_rock = getResources().getDrawable(R.drawable.portada_rock);
-        RelativeLayout presentacion_layout = (RelativeLayout) findViewById(R.id.main);
-
-        if (language == "en") {
-
-            if (Build.VERSION.SDK_INT >= 16){
-                icon.setImageDrawable(titulo_rock);
-                presentacion_layout.setBackground(fondo_rock);
-            }
-        } else if (language == "es") {
-
-            if (Build.VERSION.SDK_INT >= 16){
-                icon.setImageDrawable(titulo_rupest);
-                presentacion_layout.setBackground(fondo_rupes);
-            }
-        }
 
         final ImageView es = (ImageView) findViewById(R.id.es);
         final ImageView en = (ImageView)findViewById(R.id.en);
@@ -79,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         .getLaunchIntentForPackage( getBaseContext().getPackageName() );
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
+
             }
         });
 
@@ -108,8 +97,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             drawer.closeDrawer(GravityCompat.START);
         } else {
             finish();
-            //startActivity(new Intent(MainActivity.this, MainActivity.class)
-              //      .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
         }
     }
 
@@ -168,5 +155,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawerLayout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
 }

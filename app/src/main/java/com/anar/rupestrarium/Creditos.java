@@ -51,18 +51,6 @@ public class Creditos extends AppCompatActivity implements NavigationView.OnNavi
         NavigationView navigationView = (NavigationView) findViewById(R.id.navView);
         navigationView.setNavigationItemSelectedListener(this);
 
-        String language = Locale.getDefault().getLanguage();
-        Drawable bg = getResources().getDrawable(R.drawable.cred_en);
-
-        LinearLayout credits_layout = (LinearLayout) findViewById(R.id.credits);
-
-        if (language == "en"){
-
-            if (Build.VERSION.SDK_INT >= 16)
-                credits_layout.setBackgroundDrawable(bg);
-            else
-                credits_layout.setBackgroundDrawable(bg);
-        }
     }
 
     @Override

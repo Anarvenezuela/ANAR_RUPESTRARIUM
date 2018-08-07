@@ -15,20 +15,6 @@ public class Instrucciones extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.instrucciones,container,false);
-
-        String language = Locale.getDefault().getLanguage();
-        Drawable bg = getResources().getDrawable(R.drawable.instr_en);
-
-        if (language == "en"){
-
-            if (Build.VERSION.SDK_INT >= 16)
-                view.setBackground(bg);
-            else
-                view.setBackgroundDrawable(bg);
-        }
-
-
-        return view;
+        return inflater.inflate(R.layout.instrucciones,container,false);
     }
 }

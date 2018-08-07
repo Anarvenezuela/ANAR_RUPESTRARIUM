@@ -15,20 +15,6 @@ public class Presentacion extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.presentacion,container,false);
-
-        String language = Locale.getDefault().getLanguage();
-        Drawable bg = getResources().getDrawable(R.drawable.presentacion_en);
-        Drawable bg_es = getResources().getDrawable(R.drawable.presentacion);
-
-        if (language == "en"){
-
-            if (Build.VERSION.SDK_INT >= 16)
-                view.setBackgroundDrawable(bg);
-            else
-                view.setBackgroundDrawable(bg_es);
-        }
-
-        return view;
+        return inflater.inflate(R.layout.presentacion,container,false);
     }
 }

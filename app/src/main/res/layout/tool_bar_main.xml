@@ -17,14 +17,41 @@
             android:background="@color/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-            <ImageView
-                android:layout_marginLeft="30dp"
-                android:layout_marginStart="30dp"
-                android:layout_width="170dp"
-                android:layout_height="40dp"
-                android:src="@drawable/rupestrarium1"
-                android:id="@+id/app_name_bar"
-                tools:ignore="ContentDescription"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/appname"
+                    android:id="@+id/app_name_bar"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageView
+                    android:id="@+id/es"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/spain"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_toStartOf="@id/en"
+                    android:layout_toLeftOf="@id/en"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/en"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/uk"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
 
         </android.support.v7.widget.Toolbar>
 

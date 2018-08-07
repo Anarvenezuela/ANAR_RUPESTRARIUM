@@ -76,7 +76,8 @@ public class Recapitula extends AppCompatActivity implements NavigationView.OnNa
         final RadioButton rdb =(RadioButton)findViewById(R.id.rdbTwo);
         final RadioButton rdc =(RadioButton)findViewById(R.id.rdbThree);
         final RadioButton rdd =(RadioButton)findViewById(R.id.rdbFour);
-        final ImageButton butNext =(ImageButton)findViewById(R.id.siguiente);
+        // final ImageButton butNext =(ImageButton)findViewById(R.id.siguiente);
+        final ImageView butNext = (ImageView) findViewById(R.id.siguiente);
         final Button butFin = (Button)findViewById(R.id.finalizar);
 
         butFin.setVisibility(View.INVISIBLE);
@@ -114,10 +115,10 @@ public class Recapitula extends AppCompatActivity implements NavigationView.OnNa
             public void onClick(View v) {
 
 
-                if ((rda.isChecked()==true) && preguntas[x].opA.equals(preguntas[x].respuesta) ||
-                        (rdb.isChecked()==true) && preguntas[x].opB.equals(preguntas[x].respuesta) ||
-                        (rdc.isChecked()==true) && preguntas[x].opC.equals(preguntas[x].respuesta) ||
-                        (rdd.isChecked()==true) && preguntas[x].opD.equals(preguntas[x].respuesta)){
+                if ((rda.isChecked()) && preguntas[x].opA.equals(preguntas[x].respuesta) ||
+                        (rdb.isChecked()) && preguntas[x].opB.equals(preguntas[x].respuesta) ||
+                        (rdc.isChecked()) && preguntas[x].opC.equals(preguntas[x].respuesta) ||
+                        (rdd.isChecked()) && preguntas[x].opD.equals(preguntas[x].respuesta)){
                     score++;
                 } else {
                     erradas += " "+Integer.toString(id);

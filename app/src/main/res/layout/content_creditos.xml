@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:weightSum="1"
     android:id="@+id/credits"
-    android:background="@drawable/cred_es">
+    android:background="@drawable/cred">
 
     <include
         android:id="@+id/toolBarMenu"

@@ -8,7 +8,10 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolBarMain"
@@ -17,14 +20,46 @@
             android:background="@color/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-            <ImageView
-                android:layout_marginLeft="30dp"
-                android:layout_marginStart="30dp"
-                android:layout_width="170dp"
-                android:layout_height="40dp"
-                android:src="@drawable/rupestrarium1"
-                android:id="@+id/app_name_bar"
-                tools:ignore="ContentDescription"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/app_name_bar"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/appname"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/en"
+                    android:layout_width="36dp"
+                    android:layout_height="27dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="1dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/uk"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="1dp" />
+
+                <ImageView
+                    android:id="@+id/es"
+                    android:layout_width="34dp"
+                    android:layout_height="27dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toLeftOf="@id/en"
+                    android:layout_toStartOf="@id/en"
+                    android:background="@drawable/spain"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+
+            </RelativeLayout>
 
         </android.support.v7.widget.Toolbar>
 
