@@ -23,30 +23,4 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@drawable/title_background" />
-
-    <!--ImageView
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:background="@drawable/uk"
-        android:id="@+id/en"
-        android:clickable="true"
-        tools:layout_editor_absoluteY="425dp"
-        tools:layout_editor_absoluteX="309dp"
-        android:layout_marginBottom="62dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:id="@+id/es"
-        android:background="@drawable/spain"
-        android:clickable="true"
-        tools:layout_editor_absoluteY="425dp"
-        tools:layout_editor_absoluteX="259dp"
-        android:layout_alignTop="@+id/en"
-        android:layout_toLeftOf="@+id/en"
-        android:layout_toStartOf="@+id/en" /-->
-
 </RelativeLayout>

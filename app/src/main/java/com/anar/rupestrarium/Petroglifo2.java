@@ -1,14 +1,6 @@
 package com.anar.rupestrarium;
 
 import android.content.Context;
-import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.Button;
-import android.widget.Gallery;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -16,11 +8,22 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ImageView;
+import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.Gallery;
+import android.widget.TextView;
+import android.view.ViewGroup;
+import org.w3c.dom.Text;
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
-
 
 public class Petroglifo2 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -40,7 +43,7 @@ public class Petroglifo2 extends AppCompatActivity implements NavigationView.OnN
         setContentView(R.layout.activity_petroglifo2);
 
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
-                .setDefaultFontPath("fonts/AvenirLTStd-Book.otf")
+                .setDefaultFontPath("fonts/BAUHAUSM.TTF")
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         );
@@ -82,7 +85,7 @@ public class Petroglifo2 extends AppCompatActivity implements NavigationView.OnN
         GalleryAdapter sup = new GalleryAdapter(this,superior_adapter,0);
         GalleryAdapter med = new GalleryAdapter(this,medio_adapter,1);
         GalleryAdapter inf = new GalleryAdapter(this,inferior_adapter,2);
-
+        figura.setText(getString(R.string.zoomorfa));
         superior.setAdapter(sup);
         superior.setSelection(Integer.MAX_VALUE/2);
         medio.setAdapter(med);
@@ -480,4 +483,6 @@ public class Petroglifo2 extends AppCompatActivity implements NavigationView.OnN
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
+
+    
 }

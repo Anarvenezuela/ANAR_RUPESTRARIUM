@@ -292,12 +292,9 @@ public class Recapitula extends AppCompatActivity implements NavigationView.OnNa
         startActivity(Intent.createChooser(emailIntent, "Email "));
     }
 
-
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
 
-
 }
-

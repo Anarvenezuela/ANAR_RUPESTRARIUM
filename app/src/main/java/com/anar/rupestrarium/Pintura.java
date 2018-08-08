@@ -21,9 +21,7 @@ import android.widget.Button;
 import android.widget.Gallery;
 import android.widget.TextView;
 import android.view.ViewGroup;
-
 import org.w3c.dom.Text;
-
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
