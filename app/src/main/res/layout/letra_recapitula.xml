@@ -6,7 +6,7 @@
 
     <TextView
         android:id="@+id/letra_recap3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center|top"
         android:gravity="center|top"
@@ -14,7 +14,7 @@
 
     <TextView
         android:id="@+id/letra_recap"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
@@ -22,7 +22,7 @@
 
     <TextView
         android:id="@+id/letra_recap2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
@@ -32,7 +32,7 @@
 
     <TextView
         android:id="@+id/letra_recap4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
