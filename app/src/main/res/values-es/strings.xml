@@ -61,14 +61,14 @@
     <string name="zoogeoantropomorfa">ZOOGEOANTROPOMORFA</string>
     <string name="desc_zoogeoantropomorfa"><b>Figuras Zoomorfas</b>, mezcladas con componentes\n<b>Geométricos</b> y <b>Antropomorfos</b> generan\n representaciones <b>Zoogeoantropomorfas</b>.</string>
 
-    <string name= "p1">Las Manifestaciones Rupestres son importantes, porque:________________________</string>
+    <string name= "p1">Las Manifestaciones Rupestres\nson importantes, porque: ________________________</string>
     <string name= "p1a">Son obras artísticas</string>
     <string name= "p1b">Es posible trasladarlas de un sitio a otro</string>
     <string name= "p1c">Son el intento más antiguo de comunicación humana</string>
     <string name= "p1d">Se encuentran solo en Africa</string>
     <string name= "s1">Son el intento más antiguo de comunicación humana</string>
 
-    <string name= "p2">El ___________ permite acercarnos a las diversas\nexpresiones gráficas, con los distintos contenidos de nuestras primeras sociedades.</string>
+    <string name= "p2">El ___________ permite acercarnos a las diversas expresiones gráficas, con los distintos contenidos de nuestras primeras sociedades.</string>
     <string name= "p2a">Dolmen</string>
     <string name= "p2b">Agua</string>
     <string name= "p2c">Arte Rupestre</string>
@@ -89,7 +89,7 @@
     <string name= "p4d">Figuras  geozoomorfas</string>
     <string name= "s4">Figuras  Antropomorfas</string>
 
-    <string name= "p5">Las representaciones de imágenes más abstractas las\nllamamos ___________________</string>
+    <string name= "p5">Las representaciones de imágenes más abstractas las llamamos ___________________</string>
     <string name= "p5a">Zoomorfas</string>
     <string name= "p5b">Antropomorfas</string>
     <string name= "p5c">Geométricas o formas libres</string>
@@ -119,6 +119,7 @@
     <string name="r4_6b">Debes corregir las respuestas a las preguntas: </string>
     <string name="r7">¡FELICITACIONES!\n\nGanaste los </string>
     <string name="intento">\nIntenta de Nuevo\n</string>
+    <string name="finalizar">Finalizar</string>
 
     <string name="puntaje">Puntaje: </string>
     <string name="erradas">Incorrectas: </string>

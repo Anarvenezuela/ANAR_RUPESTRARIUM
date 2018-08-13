@@ -20,25 +20,25 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="79dp"
-        android:background="@drawable/boton_rend_sincolor"
         android:gravity="center"
         android:maxLines="4"
         android:minLines="2"
-        android:textColor="#000000"
+        android:textColor="#fff"
         android:textSize="18sp"
         android:visibility="invisible" />
 
     <Gallery
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="135dp"
         android:id="@+id/inferior_petro"
         android:layout_above="@+id/franja"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="35dp"/>
 
     <Gallery
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="135dp"
         android:id="@+id/medio_petro"
         android:layout_above="@+id/inferior_petro"
         android:layout_alignParentLeft="true"
@@ -46,7 +46,7 @@
 
     <Gallery
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="135dp"
         android:id="@+id/superior_petro"
         android:layout_above="@+id/medio_petro"
         android:layout_alignParentLeft="true"

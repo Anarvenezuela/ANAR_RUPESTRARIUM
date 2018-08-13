@@ -3,14 +3,14 @@
     <string name="instr">Instrucciones</string>
     <string name="intro">Introducción</string>
     <string name="present">Presentación</string>
+    <string name="start">Inicio</string>
     <string name="petro">Petroglifos</string>
     <string name="petro2">Petroglifos 2</string>
     <string name="pint">Pinturas Rupestres</string>
     <string name="pint2">Pinturas Rupestres 2</string>
-    <string name="recap">Recapitula</string>
-    <string name="start">Inicio</string>
-    <string name="cred">Créditos</string>
     <string name="correo">anarvenezuela@gmail.com</string>
+    <string name="recap">Recapitula</string>
+    <string name="cred">Créditos</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
@@ -61,35 +61,35 @@
     <string name="zoogeoantropomorfa">ZOOGEOANTROPOMORFA</string>
     <string name="desc_zoogeoantropomorfa"><b>Figuras Zoomorfas</b>, mezcladas con componentes\n<b>Geométricos</b> y <b>Antropomorfos</b> generan\n representaciones <b>Zoogeoantropomorfas</b>.</string>
 
-    <string name= "p1">Las Manifestaciones Rupestres son importantes, porque:________________________</string>
+    <string name= "p1">Las Manifestaciones Rupestres\nson importantes, porque: ________________________</string>
     <string name= "p1a">Son obras artísticas</string>
     <string name= "p1b">Es posible trasladarlas de un sitio a otro</string>
     <string name= "p1c">Son el intento más antiguo de comunicación humana</string>
     <string name= "p1d">Se encuentran solo en Africa</string>
     <string name= "s1">Son el intento más antiguo de comunicación humana</string>
 
-    <string name= "p2">El _____________ ____________________________permite acercarnos a las diversas\nexpresiones gráficas, con los distintos contenidos de nuestras primeras sociedades.</string>
+    <string name= "p2">El ___________ permite acercarnos a las diversas expresiones gráficas, con los distintos contenidos de nuestras primeras sociedades.</string>
     <string name= "p2a">Dolmen</string>
     <string name= "p2b">Agua</string>
     <string name= "p2c">Arte Rupestre</string>
     <string name= "p2d">Baile</string>
     <string name= "s2">Arte Rupestre</string>
 
-    <string name= "p3">En cuáles de estas Manifestaciones, encontramos gráficos o dibujos, pintados o\ngrabados?</string>
+    <string name= "p3">¿En cuáles de estas Manifestaciones, encontramos gráficos o dibujos, pintados o grabados?</string>
     <string name= "p3a">Cerros Míticos Naturales</string>
     <string name= "p3b">Pinturas Rupestres, Pictografías o Micropetroglifos</string>
     <string name= "p3c">Puntos Acoplados</string>
     <string name= "p3d">Solo Micropetroglifos</string>
     <string name= "s3">Pinturas Rupestres, Pictografías o Micropetroglifos</string>
 
-    <string name= "p4">Se llaman _____________  ________________________ las representaciones del Ser\nhumano –cuerpo entero, la cabeza, huellas de manos y pies…..-</string>
+    <string name= "p4">Se llaman _______________ las representaciones del Ser humano \n–cuerpo entero, la cabeza, huellas de manos y pies…..-</string>
     <string name= "p4a">Figuras Geométricas</string>
     <string name= "p4b">Figuras  Zoomorfas</string>
     <string name= "p4c">Figuras  Antropomorfas</string>
     <string name= "p4d">Figuras  geozoomorfas</string>
     <string name= "s4">Figuras  Antropomorfas</string>
 
-    <string name= "p5">Las representaciones de imágenes más abstractas las\nllamamos ________________________</string>
+    <string name= "p5">Las representaciones de imágenes más abstractas las llamamos ___________________</string>
     <string name= "p5a">Zoomorfas</string>
     <string name= "p5b">Antropomorfas</string>
     <string name= "p5c">Geométricas o formas libres</string>
@@ -103,28 +103,27 @@
     <string name= "p6d">Cestas</string>
     <string name= "s6">Animales</string>
 
-    <string name= "p7">La mezcla de figuras antropomorfas + zoomorfas genera representaciones____________________</string>
+    <string name= "p7">La mezcla de figuras antropomorfas + zoomorfas genera representaciones________________</string>
     <string name= "p7a">Geoantropomorfas</string>
     <string name= "p7b">Antropozoomorfas</string>
     <string name= "p7c">Zoogeométricas</string>
     <string name= "p7d">Zooantropogeométricas</string>
     <string name= "s7">Antropozoomorfas</string>
 
+
     <string name="resultados">\nResultados\n</string>
-    <string name="puntos"> puntos</string>
+    <string name="puntos">puntos</string>
     <string name="r0">No has obtenido puntos en esta ronda\n\n¡Suerte para la próxima!</string>
     <string name="r1_3">Arreglas las respuestas </string>
     <string name="r4_6a">¡Muy bien!\n\nGanaste </string>
     <string name="r4_6b">Debes corregir las respuestas a las preguntas: </string>
     <string name="r7">¡FELICITACIONES!\n\nGanaste los </string>
     <string name="intento">\nIntenta de Nuevo\n</string>
+    <string name="finalizar">Finalizar</string>
 
-    <string name="puntaje">Puntaje:\b</string>
-    <string name="erradas">Incorrectas:\b</string>
+    <string name="puntaje">Puntaje: </string>
+    <string name="erradas">Incorrectas: </string>
     <string name="enviar">\nEnviar resultados por correo\n</string>
     <string name="asunto">Resultados Recapitula Rupestrarium</string>
     <string name="mensaje">Este email es enviado desde la app de Android Rupestrarium para Móviles</string>
-
-
-
 </resources>

@@ -20,17 +20,17 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="77dp"
-        android:background="@drawable/boton_rend_sincolor"
         android:gravity="center"
         android:maxLines="4"
         android:minLines="2"
-        android:textColor="#000000"
+        android:textColor="#fff"
         android:textSize="16sp"
         android:visibility="invisible" />
 
     <Gallery
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="10dp"
         android:id="@+id/inferior_petro2"
         android:layout_above="@+id/franja"
         android:layout_alignParentLeft="true"
@@ -38,7 +38,7 @@
 
     <Gallery
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="110dp"
         android:id="@+id/medio_petro2"
         android:layout_above="@+id/inferior_petro2"
         android:layout_alignParentLeft="true"
@@ -46,7 +46,7 @@
 
     <Gallery
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="110dp"
         android:id="@+id/superior_petro2"
         android:layout_above="@+id/medio_petro2"
         android:layout_alignParentLeft="true"
@@ -65,9 +65,9 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_gravity="center_horizontal|center_vertical"
-            android:background="@drawable/boton_rend_sincolor"
             android:gravity="center_horizontal|center_vertical"
             android:maxLines="1"
+            android:background="@drawable/boton_rend_sincolor"
             android:onClick="figura_click"
             android:text="@string/zoomorfa"
             android:textSize="18sp"
@@ -80,9 +80,9 @@
             android:onClick="first_click"
             android:layout_centerInParent="true"
             android:layout_gravity="center_horizontal|center_vertical"
-            android:background="@drawable/boton_rend_sincolor"
             android:gravity="center_horizontal|center_vertical"
             android:maxLines="1"
+            android:background="@drawable/boton_rend_sincolor"
             android:text="@string/start"
             android:textSize="18sp"
             android:visibility="visible" />

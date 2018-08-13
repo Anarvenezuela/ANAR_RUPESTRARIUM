@@ -61,7 +61,7 @@
     <string name="zoogeoantropomorfa">ZOOGEOANTHROPOMORPHIC</string>
     <string name="desc_zoogeoantropomorfa"><b>Zoomorphic figures</b> combined with\n<b>Geometric</b> and <b>Anthropomorphic</b> components generate\n<b>Zoogeoanthropomorphic</b>\n representations</string>
 
-    <string name= "p1">The Rock Art expressions are important,\nbecause:_______________________</string>
+    <string name= "p1">The Rock Art expressions are important, because: _______________________</string>
     <string name= "p1a">They are artistic works</string>
     <string name= "p1b">It is possible to transfer them from one site to another</string>
     <string name= "p1c">Are the oldest attempt of human communication</string>
@@ -118,6 +118,7 @@
     <string name="r4_6b">You must corret the answers of the following questions: </string>
     <string name="r7">¡CONGRATULATIONS!\n\nYou won the </string>
     <string name="intento">\nTry Again\n</string>
+    <string name="finalizar">Finish</string>
 
     <string name="puntaje">Score:  </string>
     <string name="erradas">Wrong Answers:  </string>
